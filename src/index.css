@@ -144,3 +144,16 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
+/* @media screen and (max-width: 400px){
+  .cart .amount {
+    font-size: 20px;
+  }
+
+  .cart .total {
+    flex-direction: column;
+  }
+
+  .cart .emoji {
+    font-size: 40px;
+  }
+} */

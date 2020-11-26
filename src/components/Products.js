@@ -1,9 +1,11 @@
 import React from 'react'
-import { Product } from './Product'
+import Product from './Product'
+import { useSelector } from 'react-redux'
 
-export const Products = () => {
+
+const Products = () => {
   // TODO - fetch all products from the store
-  const allProducts = []
+  const allProducts = useSelector((store) => store.products.productList)
 
   return (
     <div className="products">
@@ -13,3 +15,5 @@ export const Products = () => {
     </div>
   )
 }
+
+export default Products
